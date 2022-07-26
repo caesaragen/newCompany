@@ -3,12 +3,12 @@ import HeroSection from "../components/heroSection";
 import InfoSection from "../components/infoSection";
 import { Navbar } from "./../components/navbar";
 import { Sidebar } from "./../components/sidebar";
-import Lottie from "lottie-react";
+// import Lottie from "lottie-react";
 import image1Animation from "../lottie/animation_l626fpry.json";
 import image2Animation from "../lottie/animation2.json";
 import image3Animation from "../lottie/animation3.json";
-import image4Animation from "../lottie/animation4.json";
-import image5Animation from "../lottie/animation5.json";
+// import image4Animation from "../lottie/animation4.json";
+// import image5Animation from "../lottie/animation5.json";
 
 
 import Image1 from "../images/design-notes.svg";

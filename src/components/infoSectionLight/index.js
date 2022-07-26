@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../App.css";
 import { InfoContainer, InfoWrapper, Subtitle, Title } from "./infoElements";
 import { ButtonBasicInv } from "../ButtonElements";
-import Lottie ,{ useLottie } from "lottie-react"
+import Lottie from "lottie-react"
 
 export const InfoSectionLight = ({
   id,
