@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../App.css";
 import { InfoContainer, InfoWrapper, Subtitle, Title } from "./InfoElements";
 import { ButtonBasic } from "../ButtonElements";
-import Lottie, { useLottie } from "lottie-react";
-import image1Animation from "../../lottie/animation_l626fpry.json";
+import Lottie from "lottie-react";
+// import image1Animation from "../../lottie/animation_l626fpry.json";
 
 export const InfoSection = ({ id, title, subtitle, text, image, btnText, imageAnimation }) => {
   
