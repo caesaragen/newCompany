@@ -3,8 +3,11 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "../../App.css";
 import { InfoContainer, InfoWrapper, Subtitle, Title } from "./InfoElements";
 import { ButtonBasic } from "../ButtonElements";
+import Lottie, { useLottie } from "lottie-react";
+import image1Animation from "../../lottie/animation_l626fpry.json";
 
-export const InfoSection = ({ id, title, subtitle, text, image, btnText }) => {
+export const InfoSection = ({ id, title, subtitle, text, image, btnText, imageAnimation }) => {
+  
   return (
     <>
       <InfoContainer id={id} className="bg-black">
@@ -19,7 +22,8 @@ export const InfoSection = ({ id, title, subtitle, text, image, btnText }) => {
               </ButtonBasic>
             </div>
             <div className="col-lg-6 col-sm-12 img-wrap">
-              <img src={image} alt="" className="fit-img"></img>
+              {/* <img src={image} alt="" className="fit-img"></img> */}
+              <Lottie options={{ loop: false }} animationData={imageAnimation} />
             </div>
           </div>
         </InfoWrapper>

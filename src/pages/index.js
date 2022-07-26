@@ -3,6 +3,13 @@ import HeroSection from "../components/heroSection";
 import InfoSection from "../components/infoSection";
 import { Navbar } from "./../components/navbar";
 import { Sidebar } from "./../components/sidebar";
+import Lottie from "lottie-react";
+import image1Animation from "../lottie/animation_l626fpry.json";
+import image2Animation from "../lottie/animation2.json";
+import image3Animation from "../lottie/animation3.json";
+import image4Animation from "../lottie/animation4.json";
+import image5Animation from "../lottie/animation5.json";
+
 
 import Image1 from "../images/design-notes.svg";
 import Image2 from "../images/space.svg";
@@ -24,6 +31,7 @@ export const Home = () => {
       <HeroSection />
       <InfoSection
         image={Image1}
+        imageAnimation={image1Animation}
         id="about"
         subtitle="Get to know us"
         title="About US"
@@ -32,6 +40,7 @@ export const Home = () => {
       />
       <InfoSectionLight
         image={Image2}
+        imageAnimation={image2Animation}
         id="discover"
         subtitle="Discover our services"
         title="Discover"
@@ -41,6 +50,7 @@ export const Home = () => {
       <Services />
       <InfoSectionLight
         image={Image1}
+        imageAnimation={image3Animation}
         id="#"
         subtitle="Based on an Agile approach and a strong focus on the user experience"
         title="Our Development Process"
